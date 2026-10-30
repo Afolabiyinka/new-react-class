@@ -1,3 +1,6 @@
+import { ArrowRight, House } from "lucide-react";
+import CustomBtn from "../components/CustomBtn";
+
 const Home = () => {
   return (
     <div
@@ -15,9 +18,7 @@ const Home = () => {
 
         <h1 className="text-7xl">Male Clothes</h1>
         <p className="text-2xl">30% off Summer Vacations</p>
-        <button className="p-3 mt-5 px-16  cursor-pointer bg-white hover:bg-transparent text-black hover:border hover:text-white transition-all duration-500 hover:scale-105 rounded-full">
-          SHOP NOW
-        </button>
+        <CustomBtn text={`SHOP NOW`} rightIcon={<ArrowRight />} />
       </div>
     </div>
   );

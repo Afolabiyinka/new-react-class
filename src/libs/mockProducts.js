@@ -1,0 +1,58 @@
+export const products = [
+  {
+    id: 1,
+    title: "Nike Air Max 270",
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    price: 150,
+    discountPrice: 120,
+  },
+  {
+    id: 2,
+    title: "Classic White Sneakers",
+    image: "https://images.unsplash.com/photo-1549298916-b41d501d3772",
+    price: 100,
+    discountPrice: 85,
+  },
+  {
+    id: 3,
+    title: "Premium Leather Handbag",
+    image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3",
+    price: 200,
+    discountPrice: 175,
+  },
+  {
+    id: 4,
+    title: "Casual Denim Jacket",
+    image: "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+    price: 120,
+    discountPrice: 95,
+  },
+  {
+    id: 5,
+    title: "Minimalist Wristwatch",
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+    price: 180,
+    discountPrice: 150,
+  },
+  {
+    id: 6,
+    title: "Classic Sunglasses",
+    image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+    price: 75,
+    discountPrice: 60,
+  },
+  {
+    id: 7,
+    title: "Oversized Hoodie",
+    image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7",
+    price: 90,
+    discountPrice: 70,
+  },
+  {
+    id: 8,
+    title: "Leather Crossbody Bag",
+    image: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa",
+    price: 130,
+    discountPrice: 110,
+  },
+];
